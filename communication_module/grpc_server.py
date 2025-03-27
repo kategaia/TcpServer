@@ -342,7 +342,7 @@ class GrpcServer:
 if __name__ == "__main__":
     # Dans une situation réelle, nous utiliserions un singleton du moteur de jeu
     # from game_engine_module.game_engine import GameEngine
-    # game_engine = GameEngine.get_instance()
+    # game_engine = GameEngine.get_instance()ooo
     
     # Pour l'exemple, nous simulons simplement le moteur de jeu
     game_engine = None
