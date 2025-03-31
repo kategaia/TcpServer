@@ -61,6 +61,7 @@ def new_game():
     nbr_obstacle = request.form.get("nbr_obstacle")
     nbr_player = request.form.get("nbr_player")
     nbr_loup = request.form.get("nbr_loup")
+    
     if nbr_ligne != None and nbr_col != None and wait_time != None and nbr_tour != None and nbr_obstacle != None and nbr_player != None and nbr_loup != None:
         plateau = nouveau_jeu(int(nbr_ligne), int(nbr_col), int(nbr_obstacle), int(nbr_player), int(nbr_loup))
         plat = plateau[0]
